@@ -11,6 +11,7 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 import { SiTailwindcss } from "react-icons/si";
 import { Divider } from "@mui/material";
 import { SiMongodb } from "react-icons/si";
+import ProgressBar from "./ProgressBar";
 const Skills = () => {
   return (
     <>
@@ -18,16 +19,14 @@ const Skills = () => {
         <h2 className=" text-3xl font-semibold underline  text-center  message ">
           Technology I Use
         </h2>
-        <p className="text-xl text-center my-2 md:my-5">
-          Crazy Mern stack developer who wants to explore every TechStack
-        </p>
+
 
         <div className="md:flex  lg:flex ">
           <div className="md:w-1/2 lg:w-1/2 w-full">
             <img className="md:w-96 lg:w-100 w-full" src={left_img} alt="" />
           </div>
-          <div className="md:w-1/2  lg:w-1/2 w-full  ">
-            <div className=" flex gap-6 md:gap-8 flex-wrap ">
+          <div className="md:w-1/2 p-2  lg:w-1/2 w-full  ">
+            {/* <div className=" flex gap-6 md:gap-8 flex-wrap ">
               <AiFillHtml5
                 color="orange"
                 className="hover:text-violet-800"
@@ -49,7 +48,7 @@ const Skills = () => {
                 fontSize={70}
               />
               <SiExpress className="hover:text-violet-800" fontSize={70} />
-              {/* <BiLogoMongodb className="hover:text-violet-800" fontSize={70} /> */}
+
               <SiMysql className="hover:text-violet-800" fontSize={70} />
               <BsFillBootstrapFill
                 color="blue"
@@ -58,7 +57,17 @@ const Skills = () => {
               />
               <SiTailwindcss className="hover:text-violet-800" fontSize={70} />
               <SiMongodb className="hover:text-violet-800" fontSize={70} />
-            </div>
+            </div> */}
+
+           <div>
+
+              <ProgressBar tech="HTML5"  bgcolor="orange" progress='90'  height={30} />
+              <ProgressBar tech="CSS"  bgcolor="blue" progress='75'  height={30} />
+              <ProgressBar tech="JAVASCRIPT"  bgcolor="yellow" progress='70'  height={30} />
+              <ProgressBar tech="REACT JS"  bgcolor="skyblue" progress='80'  height={30} />
+              <ProgressBar tech="NODE JS"  bgcolor="green" progress='75'  height={30} />
+           </div>
+
           </div>
         </div>
       </div>

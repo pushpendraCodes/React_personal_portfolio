@@ -9,13 +9,18 @@
     -webkit-transform-origin: 70% 70%;
     transform-origin: 70% 70%;
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .imogy{
     height: 3em;
     width: 3rem;
     margin: 0px 0.05em 0px 0.1em;
     vertical-align: -0.1em;
 }
-
+.name{
+    font-family: 'Pacifico', cursive;
+}
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;        /* Change to speed up or slow down */

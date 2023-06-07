@@ -55,8 +55,9 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div className="copyright my-5 ">
-          <p className="text-center">
+        <br/>
+        <div style={{backgroundColor:"#ebe9e5" ,padding:"5px"}}  className="copyright  ">
+          <p  className="text-center">
             Copyright ©{year} &nbsp; Pushpendra. All rights reserved{" "}
           </p>
         </div>

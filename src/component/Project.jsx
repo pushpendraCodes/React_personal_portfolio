@@ -14,7 +14,7 @@ const Project = () => {
   return (
     <>
       <div className="container my-4">
-        <h2 className=" text-3xl font-semibold underline  text-center  message ">
+        <h2 className=" text-3xl font-semibold underline my-4  text-center  message ">
           Things I Made
         </h2>
 
@@ -56,6 +56,7 @@ const Project = () => {
               </a>
             </CardActions>
           </Card>
+          <br/>
           <Card  className="md:w-1/2" sx={{}}>
             <a  target="blank" href="https://apnastore-ecom.netlify.app/">
               <CardMedia
