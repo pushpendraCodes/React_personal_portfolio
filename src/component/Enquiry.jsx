@@ -4,7 +4,7 @@ const Enquiry = () => {
   return (
     <>
       <div className=" my-5 enquiry-bg p-5 flex justify-center align-center">
-        <div className=" bg-slate-700  w-full md:w-2/3 md:flex lg:flex p-5 rounded-lg text-white ">
+        <div className=" bg-violet-700  w-full md:w-2/3 md:flex lg:flex p-5 rounded-lg text-white ">
           <div  className="md:w-1/2 p-4 w-full">
             <h1 className="text-3xl font-semibold " >Work Enquiry</h1>
             <p className="my-1 font-thin" >Let's work together and i'll help you by all my best</p>

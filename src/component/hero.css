@@ -32,6 +32,9 @@
   .bg-img{
     background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-97396.jpg?w=996&t=st=1690973309~exp=1690973909~hmac=3bc5f3707d707b796022f20de5e1899d21d5042b3cd03aeaa96ad0bc1121f48c");
   }
+
+
+  .typed { overflow: hidden; white-space:break-spaces; width: 0; animation: typing; animation-duration: 1.5s; animation-timing-function: steps(30, end); animation-fill-mode: forwards; } @keyframes typing { from { width: 0 } to { width: 100% } }
   @media only screen and (max-width: 600px) {
     .imogy{
         width: 3.5rem;
@@ -53,9 +56,8 @@
     100% { transform: rotate( 0.0deg) }
   }
   .bounce {
-    font-size: 1.6rem;
-    /* width: 100%; */
-    /* margin: 3rem auto; */
+    /* font-size: 1.5rem; */
+
     display: inline-flex;
     justify-content: center;
     -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);

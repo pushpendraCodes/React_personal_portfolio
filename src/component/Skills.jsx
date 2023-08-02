@@ -21,10 +21,12 @@ import node from "../assets/node-js.png"
 const Skills = () => {
   return (
     <>
-      <div className=" skill md:p-16 lg:p-15 p-2">
-        <h2 className=" text-3xl my-5 font-semibold underline text-white text-center  message ">
+
+<h2 className=" text-3xl mb-3 font-semibold underline text-black text-center  message ">
           Technology I Use
         </h2>
+      <div className=" skill md:p-16 lg:p-15 p-2">
+
 
 
         <div className="md:flex  lg:flex ">

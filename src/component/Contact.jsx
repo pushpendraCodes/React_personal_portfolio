@@ -56,9 +56,9 @@ const Contact = () => {
           </div>
         </div>
         <br/>
-        <div style={{backgroundColor:"#ebe9e5" ,padding:"5px"}}  className="copyright  ">
+        <div  className="copyright p-4 bg-violet-300 ">
           <p  className="text-center">
-            Copyright ©{year} &nbsp; Pushpendra. All rights reserved{" "}
+            Copyright ©{year} &nbsp; PushpendraCodes. All rights reserved{" "}
           </p>
         </div>
 
