@@ -15,8 +15,15 @@ import video from "../assets/Video_2023_06_28_00_07_36.mp4"
 const Hero = () => {
   return (
     <>
+<<<<<<< HEAD
       <Clock />
       <div className=" p-3 bg-img my-5 h-full md:p-16  md:flex mx-auto">
+=======
+
+    <Clock/>
+      <div className=" p-3 bg-img  h-full md:p-16  md:flex mx-auto">
+
+>>>>>>> 4a4d641d0e9e68911bb5f953ecdfe89232a8ab73
         <div className=" md:w-1/2   w-full p-4 ">
           <p className="mb-5 text-xl"><span className="text-2xl">Hello Folks 👋</span>, my name is</p>
           <div className="flex md:my-5  gap-3 my-2">
@@ -46,12 +53,24 @@ const Hero = () => {
               Full stack <span className="lg:text-4xl ">Developer</span>
             </h3>
 
+<<<<<<< HEAD
             <span  style={{alignSelf:"center"}} className=" ">
               <img className="imogy  w-6  wave" src={code} alt="" />
             </span>
           </div>
           <p className="text-base text-justify typed text-blue-800  font-light">
             Hey! My name is Pushpendra patel and and i am full stack developer I
+=======
+          <span className=" ">
+              <img
+                className="imogy   wave"
+                src={code}
+                alt=""
+              />
+            </span></div>
+          <p className="text-base   font-light">
+            Hey! My name is Pushpendra patel and and i am mern stack developer I
+>>>>>>> 4a4d641d0e9e68911bb5f953ecdfe89232a8ab73
             am extremely proficient in Front-End Development using HTML5,
             Cascade Style Sheets (CSS3), Bootstrap, Tailwindcss ,material ui ,
             Advance Javascript, React.Js And Redux apart from Front-End, I have
