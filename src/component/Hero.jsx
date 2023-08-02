@@ -56,7 +56,7 @@ const Hero = () => {
 
           <span className=" ">
               <img
-                className="imogy w-6  wave"
+                className="imogy   wave"
                 src={code}
                 alt=""
               />
