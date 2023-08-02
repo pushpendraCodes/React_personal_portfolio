@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <>
 
-    {/* <Clock/> */}
+    <Clock/>
       <div className=" p-3 bg-img  h-full md:p-16  md:flex mx-auto">
 
         <div className=" md:w-1/2   w-full p-4 ">
