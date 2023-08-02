@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <>
       <div className=" skill md:p-16 lg:p-15 p-2">
-        <h2 className=" text-3xl font-semibold underline text-white text-center  message ">
+        <h2 className=" text-3xl my-5 font-semibold underline text-white text-center  message ">
           Technology I Use
         </h2>
 
@@ -31,7 +31,7 @@ const Skills = () => {
           <div style={{alignItems:"center"}} className="md:w-1/2 lg:w-1/2 w-full flex ">
             <img className="md:w-96 lg:w-100 w-full lg:h-96 rounded-lg " src={left_img} alt="" />
           </div>
-          <div className="md:w-1/2 p-4  lg:w-1/2 w-full  ">
+          <div className="md:w-1/2  lg:w-1/2 w-full  ">
            <div>
               <ProgressBar tech="HTML5"  img={html} bgcolor="orange" progress='90'  height={30} />
               <ProgressBar tech="CSS" img={css} bgcolor="blue" progress='75'  height={30} />

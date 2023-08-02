@@ -50,13 +50,13 @@ const Hero = () => {
 
           </div>
 <div className="flex gap-4">
-          <h3 className="text-2xl text-orange-500 font-semibold lg:my-5">
+          <h3 className="text-xl text-orange-500 font-semibold lg:my-5">
             Full stack Developer
           </h3>
 
           <span className=" ">
               <img
-                className="imogy w-6  wave"
+                className="imogy  wave"
                 src={code}
                 alt=""
               />
