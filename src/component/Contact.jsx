@@ -9,8 +9,8 @@ const Contact = () => {
   let year = new Date().getFullYear();
   return (
     <>
-      <div className="container">
-        <div className="text-center my-5">
+
+        <div className="text-center my-5 contact-bg">
           <h1 className="text-2xl font-semibold">Stay Connected</h1>
           <p>Rewa MP (INDIA)</p>
           <br />
@@ -61,7 +61,7 @@ const Contact = () => {
             Copyright ©{year} &nbsp; Pushpendra. All rights reserved{" "}
           </p>
         </div>
-      </div>
+
       <Divider  />
     </>
   );

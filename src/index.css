@@ -9,7 +9,23 @@ body{
     margin: 0;
     font-family: 'Roboto Slab', serif;
      cursor: url('https://i.imgur.com/6wmyrkK.gif'),auto;
+     background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-97396.jpg?w=996&t=st=1690973309~exp=1690973909~hmac=3bc5f3707d707b796022f20de5e1899d21d5042b3cd03aeaa96ad0bc1121f48c");
 }
+ .skill{
+
+    background: url("https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?w=900&t=st=1690973811~exp=1690974411~hmac=e1dbd989de4ceae47a54e6981d5bfe9951bad7c811008d490cdf008d38affbe0");
+}
+/*.enquiry-bg{
+
+
+    background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-117943.jpg?w=996&t=st=1690973587~exp=1690974187~hmac=2d0428eb486edcbaa5349291b76b1d426a6f542796a4ef0b906ec14de11c0a85");
+}
+.contact-bg{
+    background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-117943.jpg?w=996&t=st=1690973587~exp=1690974187~hmac=2d0428eb486edcbaa5349291b76b1d426a6f542796a4ef0b906ec14de11c0a85");
+}
+.project-bg{
+    background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-97396.jpg?w=996&t=st=1690973309~exp=1690973909~hmac=3bc5f3707d707b796022f20de5e1899d21d5042b3cd03aeaa96ad0bc1121f48c")
+} */
 .chat{
     position: absolute;
     top: 50%;

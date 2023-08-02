@@ -3,7 +3,7 @@ import {BsFillChatDotsFill} from "react-icons/bs"
 const Enquiry = () => {
   return (
     <>
-      <div className="container my-5 p-5 flex justify-center align-center">
+      <div className=" my-5 enquiry-bg p-5 flex justify-center align-center">
         <div className=" bg-slate-700  w-full md:w-2/3 md:flex lg:flex p-5 rounded-lg text-white ">
           <div  className="md:w-1/2 p-4 w-full">
             <h1 className="text-3xl font-semibold " >Work Enquiry</h1>

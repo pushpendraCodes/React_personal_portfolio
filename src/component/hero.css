@@ -28,10 +28,17 @@
     transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
     display: inline-block;
   }
+
+  .bg-img{
+    background: url("https://img.freepik.com/free-vector/futuristic-global-network-technology_53876-97396.jpg?w=996&t=st=1690973309~exp=1690973909~hmac=3bc5f3707d707b796022f20de5e1899d21d5042b3cd03aeaa96ad0bc1121f48c");
+  }
   @media only screen and (max-width: 600px) {
     .imogy{
         width: 37px;
         height: 35px;
+    }
+    .bounce {
+        font-size: 1.5rem;
     }
   }
 
@@ -45,3 +52,45 @@
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
+  .bounce {
+    font-size: 1.6rem;
+    /* width: 100%; */
+    /* margin: 3rem auto; */
+    display: inline-flex;
+    justify-content: center;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);
+}
+.bounce span {
+    display: inline-flex;
+    color: #101111;
+    font-family: 'Pacifico', cursive;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+}
+.ten span:nth-of-type(1) {
+    animation-delay: 0.1s;
+}
+.ten span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+.ten span:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+.ten span:nth-of-type(4) {
+    animation-delay: 0.4s;
+}
+.ten span:nth-of-type(5) {
+    animation-delay: 0.5s;
+}
+.ten span:nth-of-type(6) {
+    animation-delay: 0.6s;
+}
