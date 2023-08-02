@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <>
 
-    <Clock/>
+    {/* <Clock/> */}
       <div className=" p-3 bg-img  h-full md:p-16  md:flex mx-auto">
 
         <div className=" md:w-1/2   w-full p-4 ">
@@ -50,13 +50,13 @@ const Hero = () => {
 
           </div>
 <div className="flex gap-4">
-          <h3 className="text-xl text-orange-500 font-semibold lg:my-5">
+          <h3 className="text-2xl text-orange-500 font-semibold lg:my-5">
             Full stack Developer
           </h3>
 
           <span className=" ">
               <img
-                className="imogy  wave"
+                className="imogy w-6  wave"
                 src={code}
                 alt=""
               />
