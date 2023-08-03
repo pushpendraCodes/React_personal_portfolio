@@ -1,5 +1,6 @@
 import React from "react";
-import {BsFillChatDotsFill} from "react-icons/bs"
+
+import chat1 from "../assets/chat1.png";
 const Enquiry = () => {
   return (
     <>
@@ -10,8 +11,8 @@ const Enquiry = () => {
             <p className="my-1 font-thin" >Let's work together and i'll help you by all my best</p>
           </div>
           <div   className="md:w-1/2 w-full relative  ">
-          <a href="https://api.whatsapp.com/send?phone=8516064332&text=Hello pushpendra." target="blank" >
-          <button  style={{width:"100px"}} class="rounded-md   bg-sky-500 p-1 chat "> Lets Chat  </button></a>
+          <a  href="https://api.whatsapp.com/send?phone=8516064332&text=Hello pushpendra." target="blank" >
+          <button  style={{width:"120px"}} class="rounded-md flex    bg-sky-500 p-2 gap-2 chat "> Lets Chat <img className="w-6 h-6" src={chat1} alt="" /> </button></a>
           </div>
         </div>
       </div>

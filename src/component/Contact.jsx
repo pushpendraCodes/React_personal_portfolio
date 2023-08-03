@@ -18,7 +18,7 @@ const Contact = () => {
             pushpendrapatel8055@gmail.com
           </h2>
           <div className="my-5 flex gap-5 justify-center">
-            <a
+            <a  className="hover:bg-blue-200 p-1"
               href="https://www.linkedin.com/in/pushpendra-patel-2b2130235/"
               target="blank"
             >
@@ -29,7 +29,7 @@ const Contact = () => {
               />
             </a>
 
-            <a
+            <a  className="hover:bg-red-200 p-1"
               href="https://www.instagram.com/pushpendra_codes/"
               target="blank"
             >
@@ -39,14 +39,18 @@ const Contact = () => {
                 color="red"
               />
             </a>
-            <a href="https://github.com/pushpendraCodes">
+            <a
+             className="hover:bg-slate-400 p-1"
+             href="https://github.com/pushpendraCodes">
               <BsGithub className="cursor-pointer" fontSize={25} />
             </a>
-            <a href = "mailto: pushpendrapatel8055@gmail.com"   target="blank">
+            <a   className="hover:bg-red-200 p-1" href = "mailto: pushpendrapatel8055@gmail.com"   target="blank">
               <FiMail className="cursor-pointer" fontSize={25} color="red" />
             </a>
 
-            <a href="https://twitter.com/pushpendrpatel" target="blank">
+            <a
+             className="hover:bg-blue-300 p-1"
+            href="https://twitter.com/pushpendrpatel" target="blank">
               <BsTwitter
                 className="cursor-pointer"
                 fontSize={25}
