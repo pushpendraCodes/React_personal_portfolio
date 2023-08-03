@@ -59,7 +59,7 @@ const Hero = () => {
             </h3>
 
             <span style={{ alignSelf: "center" }} className=" ">
-              <img className="imogy  w-6  " src={code} alt="" />
+              <img className="imogy    " src={code} alt="" />
             </span>
           </div>
           <p className="text-base text-justify typed text-blue-800  font-light">
