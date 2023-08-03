@@ -22,12 +22,12 @@ const Hero = () => {
       <Clock />
       <div className=" p-3 bg-img my-5 h-full md:p-16  md:flex mx-auto">
         <div className=" md:w-1/2   w-full p-4 ">
-          <p className="mb-5 text-xl flex gap-3">
-            <span className="text-2xl">
+          <p className="mb-5 text-xl flex gap-2">
+            <span className="lg:text-2xl text-xl">
               Hello Folks
             </span>
             <img className="w-10 h-10 wave" src={hello} alt="" />{" "}
-            <span className="text-xl">My name is ,</span>
+            <span className="text-xs text-xl">My name is ,</span>
           </p>
 
 
@@ -113,13 +113,13 @@ const Hero = () => {
               href="https://api.whatsapp.com/send?phone=8516064332&text=Hello pushpendra."
               target="blank"
             >
-              <button className="px-3 text-xs flex gap-1 text-white py-2 rounded-full bg-violet-900 hover:bg-violet-800 ">
+              <button className="px-2 text-xs flex gap-1 text-white py-2 rounded-full bg-violet-900 hover:bg-violet-800 ">
                 <img className="w-6 h-5" src={chat} alt="" /> CONTACT ME
               </button>
             </a>
 
             <a href={resume} target="blank">
-              <button className="px-6 flex gap-1 py-2 text-xs text-white rounded-3xl bg-violet-900 hover:bg-violet-800">
+              <button className="px-2 flex gap-1 py-2 text-xs text-white rounded-3xl bg-violet-900 hover:bg-violet-800">
                 <img className="w-5 h-5" src={cv} alt="" /> SEE MY RESUME
               </button>
             </a>
