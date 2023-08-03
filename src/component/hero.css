@@ -21,6 +21,12 @@
 .name{
     font-family: 'Pacifico', cursive;
 }
+
+.my-photo {
+    background: url("../assets/solar-system.png");
+
+}
+
 .wave {
     animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -44,6 +50,7 @@
         font-size: 1.5rem;
     }
   }
+
 
   @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }

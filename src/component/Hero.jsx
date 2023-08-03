@@ -125,7 +125,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className=" md:w-1/2 flex justify-center p-1">
+        <div className="my-photo   md:w-1/2 flex justify-center p-1">
           <img
             style={{ width: "256px", objectFit: "cover" }}
             className=" h-96  rounded-full "
